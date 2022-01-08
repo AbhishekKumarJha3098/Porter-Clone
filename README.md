@@ -8,27 +8,27 @@ Buiding the clone of porter.in using HTML CSS and Javascript. Major pages includ
     <li>Execute the porter home.html file in the browser, and enjoy our website</li>
   </ul>
 </ul>
-## Built with
+<h3> Built with </h3>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JS DOM</li>
 </ul>
-## Used libraries
+  <h3>Used libraries</h3>
 <ul>
   <li>Font awesome</li>
   <li>Google fonts</li>
   <li>Google Icons</li>
   
 </ul>
-## Created Pages 
+<h3>Created Pages</h3> 
 <ul>
   <li>Landing Page(City Tempo)</li>
   <li>Pakers and Movers Page</li>
   <li>Drivers and Parterns Page</li>
   <li>For Enterprise Page </li>
 </ul>
-## Functionalities Added
+<h3>Functionalities Added</h3>
 <ul>
   <li>Added Slide Show Functionality</li>
   <li>Added Aress Enging Bar using Local Storage and Debouncing</li>
@@ -38,7 +38,7 @@ Buiding the clone of porter.in using HTML CSS and Javascript. Major pages includ
   <li>Designed Graphics using CSS Animations</li>
  
 </ul>
-## Team Members 
+<h3> Team Members </h3>
 <ul>
   <li><a href="http://github.com/Vivek14kr">Vivek Kumar</a></li>
   <li><a href="https://github.com/AbhishekKumarJha3098">Abhishek Kumar Jha</a></li>

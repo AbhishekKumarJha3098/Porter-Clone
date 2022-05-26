@@ -1,0 +1,297 @@
+.modal {
+    position: fixed;
+    width: 70rem;
+    border: 2px solid black;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: white;
+
+    /* overflow: hidden; */
+    border-radius: 10px
+}
+
+.modal1 {
+    position: fixed;
+    width: 70rem;
+    border: 2px solid black;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+    left: 50%;
+    top: 50%;
+    transform: scale(0);
+    background-color: white;
+
+    /* overflow: hidden; */
+    border-radius: 10px
+}
+
+.modal2 {
+    position: fixed;
+    width: 70rem;
+    border: 2px solid black;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+    left: 50%;
+    top: 50%;
+    transform: scale(0);
+    background-color: white;
+
+    /* overflow: hidden; */
+    border-radius: 10px
+}
+
+.modal3 {
+    position: fixed;
+    width: 70rem;
+    border: 2px solid black;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+    left: 50%;
+    top: 50%;
+    transform: scale(0);
+    background-color: white;
+
+    /* overflow: hidden; */
+    border-radius: 10px
+}
+
+.modal.active {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal1.active {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal2.active {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal3.active {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+#overlay1 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay1.active {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+#overlay2 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay2.active {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+#overlay3 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay3.active {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+.close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+.close-button1 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+#footer {
+
+    display: flex;
+    background-color: black;
+}
+
+#footer>h1,
+h2,
+h3,
+h4 {
+
+    color: cornsilk;
+
+}
+
+#portertag {
+    color: cornsilk;
+}
+
+#footer>h3,
+h4 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.inside {
+    margin-top: 25px;
+    margin-right: 110px;
+    margin-left: 40px;
+    display: inline;
+    width: 400px;
+
+}
+
+.logoA {
+
+    width: 180px;
+    height: 50px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+
+
+
+#next {
+
+    display: flex;
+    background-color: black;
+}
+
+.new {
+
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.old {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.p {
+
+    margin-left: 700px;
+    color: cornsilk;
+    margin-top: 20px;
+}
+
+#height {
+
+    height: 50px;
+    background-color: black;
+}
+
+#slide {
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+
+}
+
+#mobile {
+
+    display: flex;
+    border: 1px solid red;
+}
+
+#internal {
+    margin-left: 80px;
+    width: 60%;
+    border: 1px solid red;
+
+}
+
+#internal>h1,
+h3 {
+
+    color: black;
+}
+
+#blue {
+    background-color: aqua;
+    transform: rotate(-20deg);
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+
+
+}
+
+.logoA {
+
+    background-color: blue;
+
+
+}
+
+#faqhead {
+    color: black;
+}
